@@ -1,4 +1,5 @@
 library(testthat)
+library(maps)
 setwd("C:/Users/Usuario/Documents/Kevin Cursos/Kevin Rstudio/Especializacion/Curso 3/week2/tarea/data")
 #1 fars_read()
 expect_that(fars_read("accident_2014.csv.bz2"), is_a("data.frame"))
