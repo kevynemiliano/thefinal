@@ -15,7 +15,7 @@ This function return the estructure of the file loaded as data frame
 \description{
 This is a simple function that, validate the existence of a file, if the file does
 not exist you will see a warning. The file will be read with read_csv function. Then
-with the file alreay loaded i create a data frame.
+with the file alreay loaded ii create a data frame.
 }
 \examples{
 fars_read("accident_2014.csv.bz2")
